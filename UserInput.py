@@ -1,0 +1,15 @@
+print("ROAD REGISTRATION")
+
+road_name = input("Enter Road Name: ")
+road_location = input("Enter Location: ")
+road_length = float(input("Enter Length (km): "))
+road_width = float(input("Enter Width (m): "))
+road_condition = input("Enter Road Condition: ")
+
+print("\nROAD SUMMARY")
+print("----------------")
+print("Road:", road_name)
+print("Location:", road_location)
+print("Length:", road_length)
+print("Width:", road_width)
+print("Condition:", road_condition)
