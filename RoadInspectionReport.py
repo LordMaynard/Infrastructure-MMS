@@ -15,4 +15,16 @@ if Condition_Score >= 90:
     print("Road Classification: Excellent")
     print("Recommended Maintenance: Routine Monitoring")
 elif Condition_Score >= 70:
-    print("Road Classification: Excellent")
+    print("Road Classification: Good")
+    print("Recommended Maintenance: Minor Maintenance")
+elif Condition_Score >= 50:
+    print("Road Classification: Fair")
+    print("Recommended Maintenance: Schedule Maintenance")
+elif Condition_Score >= 30:
+    print("Road Classification: Poor")
+    print("Recommended Maintenance: Immediate Maintenance")
+elif Condition_Score >= 0:
+    print("Road Classification: Critical")
+    print("Recommended Maintenance: Emergency Rehabilitation")
+else:
+    print("Invalid Score")
